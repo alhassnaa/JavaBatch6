@@ -41,8 +41,32 @@ public class Question5 {
 		for (int i = array.length - 1; i >= 0; i--) {
 			System.out.print(array[i] + " ");
 		}
+	
+	System.out.println("******************Asel version****************");
+	
+	String given="I love java";
+		String reversed="";
+
+		for(int i=given.length()-1; i>=0; i--) {
+			reversed=reversed+given.charAt(i);
+		}
+
+		System.out.println("Reversed String = "+reversed);
+
+		String[] array1=given.split(" ");
+		String reverseWords="";
+
+		for(int i=array1.length-1; i>=0; i--) {
+			reverseWords=reverseWords+array1[i]+" ";
+		}
+
+		System.out.println("Reversed String word by word= "+reverseWords);
 	}
-}
+	
+	
+	}
+	
+
 	
 
 	

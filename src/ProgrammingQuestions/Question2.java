@@ -28,7 +28,8 @@ public class Question2 {
 			        	  message="Number is not prime number.";
 			          }System.out.println(message);
 			}
-		}
+	System.out.println("***********************different way********");	
+	}
 		}
 
 	
