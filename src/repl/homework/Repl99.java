@@ -10,6 +10,7 @@ public class Repl99 {
 		    System.out.print("In:");
 		    String givenString = inp.nextLine();
 		   	//write your code below
+		    
 		   	String b="";
 		    int a=givenString.length();
 
@@ -21,8 +22,8 @@ public class Repl99 {
 				System.out.println("True");
 			}else {
 				System.out.println("False");
-			}
-			    }
+			
+	  }
 			    
-				}
-
+	}
+}
