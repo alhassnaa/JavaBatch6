@@ -20,7 +20,7 @@ public class Testing {
 		
 		String sentence="2784^%&*life";
 		
-		sentence=sentence.replaceAll("[^A-Za-z]");
+		//sentence=sentence.replace("[^A-Za-z]");
 		
  		int num=sentence.length();
  		
